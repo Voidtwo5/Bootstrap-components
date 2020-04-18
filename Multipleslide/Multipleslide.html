@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple slides with same time in bootstrap4</title>
+</head>
+<!--This is simple Bootstrap4 Slider without any indicator and next/ preview button-->
+<style>
+    body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+    .fzymutlislides{
+    width: 100%;
+    height:auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+.fzymutlislidesdwn {
+    width: 100%;
+    height:auto;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+border-radius: 10px;
+}
+</style>
+<body>
+    <div class="fzymutlislides">
+        <div class="container">
+          <div class="row">
+      <div class="fzymutlislidesdwn">
+      <div class="carousel slide" data-ride="carousel" id="fzymultslide">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+      <div class="row">
+      <div class="col-sm-12 col-lg-4 col-xl-4 col-mg-4">
+      <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-sm-12 col-lg-4 col-xl-4 col-mg-4">
+        <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-xl-4 col-mg-4">
+          <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+          </div>
+      </div>
+      </div>
+      
+      <div class="carousel-item">
+        <div class="row">
+        <div class="col-sm-12 col-lg-4 col-xl-4 col-mg-4">
+        <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-xl-4 col-mg-4">
+          <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+          </div>
+          <div class="col-sm-12 col-lg-4 col-xl-4 col-mg-4">
+            <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+            </div>
+        </div>
+        </div>
+      
+      </div>
+      </div>
+      </div>
+          </div>
+      </div>
+      </div>
+      
+       <script>
+         $('.carousel').carousel({
+           interval: 2000
+         })
+       </script> 
+</body>
+</html>
