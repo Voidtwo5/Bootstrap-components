@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.pdzrlogo {
+    width: 90px;
+    height: 45px;
+    margin: 1px 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+.dropdown-menu:hover{
+display: block;
+}
+/*Submega Menu*/
+.megamenu {
+    position: static;
+  }
+  
+  .megamenu .dropdown-menu {
+    background: #ffffff;
+    border: none;
+    width: auto;
+  }
+ .fzyMegamenuhdng {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 12px;
+    background-color:transparent;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+
+}
+.megamenu ul {
+    list-style: none;
+}
+.megamenu ul li{
+display: block;
+}
+.megamenu ul li a{
+text-decoration: none;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+color: #555555;
+float: left;
+display: block;
+width: 100%;
+height: auto;
+margin:2px auto;
+padding: auto;
+text-align: left;
+}
+.megamenu ul li a:hover {
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+}
