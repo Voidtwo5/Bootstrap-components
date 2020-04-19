@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive slider with multiple items</title>
+    <style>
+        /*Responsive multiple items slide*/
+     /*Heading Main*/
+.fzy-Mainheading {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    }
+    .fzyMainheadingdwn {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .fzyMainheadingdwndta {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .fzyMainheadingdwndta h5{
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        padding-top: 50px;
+        padding-left:30px;
+        color: #555;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+        /*How to run more than one slides in same time*/
+.fzymutlislides{
+    width: 100%;
+    height:auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+.fzymutlislidesdwn {
+    width: 100%;
+    height: auto;
+    margin: 5px auto 10px auto;
+    padding: 20px;
+    background-color:#ECEFF1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  @media screen and (max-width: 414px) {
+    .fzymutlislidesdwn {
+        display: none;
+    }
+  }
+  .fzyslidrsmall {
+      width: 100%;
+   height: auto;
+   padding: 0px;
+margin: 0px;
+background-color:transparent;
+display: none;
+    }
+    .fzyslidrsmalldwn{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+     margin: 10px auto;  
+     background-color:transparent; 
+     background-color:#ECEFF1;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     display: none;
+    }
+    @media screen and (max-width: 414px) {
+        .fzyslidrsmall{
+            display: block;
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        .fzyslidrsmalldwn{
+            display: block;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="fzyMainheading">  
+        <div class="container">
+        <div class="row">
+        <div class="fzyMainheadingdwn">
+        <div class="fzyMainheadingdwndta">
+        <h5>Our Organic Grain Products </h5>
+        </div>
+        </div>
+        </div>
+        </div>
+      <div class="fzymutlislides">
+        <div class="container">
+          <div class="row">
+      <div class="fzymutlislidesdwn">
+      <div class="carousel slide" data-ride="carousel" id="fzymultslide">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+      <div class="row">
+      <div class="col-sm-4 col-lg-4 col-xl-4 col-mg-4">
+      <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-sm-4 col-lg-4 col-xl-4 col-mg-4">
+        <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-4 col-lg-4 col-xl-4 col-mg-4">
+          <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+          </div>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+        <div class="col-sm-4 col-lg-4 col-xl-4 col-mg-4">
+        <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-4 col-lg-4 col-xl-4 col-mg-4">
+          <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+          </div>
+          <div class="col-sm-4 col-lg-4 col-xl-4 col-mg-4">
+            <a href="#"><img src="images/1.png" alt="" class="img-fluid"></a>
+            </div>
+        </div>
+        </div>
+      
+      </div>
+      </div>
+      </div>
+          </div>
+      </div>
+      </div>
+      <div class="fzyslidrsmall">
+      <div class="container">
+      <div class="fzyslidrsmalldwn">
+        <div id="fzysmllslide" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/Pahadi-Mandwa.png" alt="Pahadi Bazaar slide01" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/Pahadi-Wheat.png" alt="Pahadi Bazaar slide02" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/Pahadi-Rice350.png" alt="Pahadi Bazaar slide03" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/Pahadi-Manduwamulti350.png" alt="Pahadi Bazaar slide04" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/Pahadi-Wheatmutli350.png" alt="Pahadi Bazaar slide05" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/Pahadi-Redrice350.png" alt="Pahadi Bazaar slide05" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+       <script>
+        $('#fzymultslide').carousel({
+          interval: 1000
+        })
+        <script>
+        $('#fzysmllslide').carousel({
+          interval: 1000
+        })
+      </script>
+</body>
+</html>
